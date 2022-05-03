@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #def7ff;
+  /* height: 100px; */
+}
+
+footer .title-footer a {
+  color: #b20205;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-item {
+  list-style: none;
+  margin: 10px;
+  height: 20px;
+}

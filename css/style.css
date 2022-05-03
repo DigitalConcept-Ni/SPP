@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+ */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Great+Vibes&display=swap");
+@import url(navbar.css);
+@import url(banner.css);
+@import url(services.css);
+@import url(galery.css);
+@import url(contact.css);
+@import url(payment.css);
+@import url(footer.css);
+
+:root {
+  --azul: #0d2263;
+  --rojo: #b20205;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-info {
+    display: none;
+  }
+
+  .navbar-item {
+    font-size: 1.5rem;
+  }
+
+  .content-items {
+    width: 100vw;
+  }
+
+  .margin {
+    margin: 2rem 0;
+  }
+
+  #content_info_banner {
+    width: 90%;
+  }
+
+  .title-banner{
+    font-size: 2.33rem;
+  }
+
+  /* .baner-info > p {
+    font-size: 1.5rem;
+  } */
+}

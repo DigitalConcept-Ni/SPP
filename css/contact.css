@@ -1,0 +1,20 @@
+#contact {
+  background-color: #b202052c;
+  /* color: white; */
+  padding: 2rem 0;
+  position: relative;
+}
+
+.number-contact{
+  font-weight: 400;
+}
+
+.person{
+  font-weight: 400;
+}
+
+.request{
+  font-weight: 600;
+
+}
+

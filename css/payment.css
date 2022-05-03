@@ -1,0 +1,34 @@
+#payment {
+  height: auto;
+  width: 100%;
+  background: #def7ff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+} 
+
+.title-pay {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--azul);
+}
+
+.payment-content {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 5rem), 1fr));
+  grid-auto-rows: 5rem;
+  gap: 1rem 1rem;
+  align-content: center;
+  justify-content: center;
+  height: auto;
+}
+
+.img-payment {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
