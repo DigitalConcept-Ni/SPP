@@ -170,3 +170,8 @@ nav#menu.blanco {
 .nav-info .title-call.black{
   color: #272727;
 }
+
+.nav-social .borde {
+  border-left: 2px solid #272727;
+}
+
