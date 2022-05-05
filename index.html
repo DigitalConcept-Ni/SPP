@@ -33,9 +33,9 @@
                 <div class="nav-social">
                     <ul class="nav-social-items">
                         <li><a target="_blank"
-                                href="https://www.facebook.com/Itzep-HVAC-109427475066551/?ref=pages_you_manage"
+                                href="#"
                                 class="nav-social-link"><img src="img/fb.png" height="40" alt=""></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/itzep_services/"
+                        <li><a target="_blank" href="#"
                                 class="nav-social-link"><img src="img/inst.png" height="40" alt=""></a></li>
                     </ul>
 
@@ -85,9 +85,46 @@
             </div>
             <div class="baner-info">
                 <p>experiences that create long-lasting memories for you and your guests.</p>
-                <a href="tel:+13237026291" class="btn btn-action">Call Now</a>
+                <a href="tel:+13236493220" class="btn btn-action">Call Now</a>
             </div>
         </div>
+        <!-- SECTION OF CONTACT US -->
+        <div id="contact-banner">
+            <div id="x-contact-banner" class="contact-btn-x" onclick="btnXContact()">
+            </div>
+            <!-- FORM -->
+            <h2>Request a Phone Call:</h2>
+
+            <form action="mail.php  " method="POST">
+                <div class="form-group">
+                    <input class="form-control" name="fullName" type="text" required placeholder="Full name*">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" name="phonenumber" type="tel" required placeholder="Phone number*">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" name="email" type="email" placeholder="Email">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" name="date" type="date" placeholder="Event day">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" name="message" id="" cols="10" rows="3" maxlength="60"
+                        style="resize: none; width: 100%; padding: 10px" placeholder="Message*" ></textarea>
+                </div>
+                <input type="submit" class="btn btn-success">
+            </form>
+
+            <!-- //END FORM -->
+            <div id="tab" onclick="contact()">
+                <span>Contact</span>
+            </div>
+        </div>
+        <!-- // END SECTIONS OF CONTACT US -->
         <!-- Development by Bryan Urbina -- Digital Concept -->
     </header>
 
@@ -108,19 +145,19 @@
         <div class="content-services">
 
             <div class="card-services container">
-                <div class="card-service weading">
+                <div class="card-service setting-imgs weading">
                     <div class="service-name">
-                        <span>Wedding decoration</span>
+                        <span style="font-size: 1.28rem;">Wedding decoration</span>
                     </div>
                 </div>
 
-                <div class="card-service quince">
+                <div class="card-service setting-imgs quince">
                     <div class="service-name">
                         <span>Quince Party</span>
                     </div>
                 </div>
 
-                <div class="card-service kids">
+                <div class="card-service setting-imgs kids">
                     <div class="service-name">
                         <span>Kid's Party</span>
                     </div>
@@ -133,31 +170,31 @@
                 <h2 class="title-services">Themed parties, all in event decoration</h2>
                 <div class="card-services container">
 
-                    <div class="card-service fabric">
+                    <div class="card-service setting-imgs fabric">
                         <div class="service-name">
                             <span>Fabric Decoration</span>
                         </div>
                     </div>
 
-                    <div class="card-service balloon">
+                    <div class="card-service setting-imgs balloon">
                         <div class="service-name">
                             <span>Balloon Decoration</span>
                         </div>
                     </div>
 
-                    <div class="card-service bouncers">
+                    <div class="card-service setting-imgs bouncers">
                         <div class="service-name">
                             <span>Bouncers</span>
                         </div>
                     </div>
 
-                    <div class="card-service popcorn">
+                    <div class="card-service setting-imgs popcorn">
                         <div class="service-name">
                             <span>Popcorn</span>
                         </div>
                     </div>
 
-                    <div class="card-service floss">
+                    <div class="card-service setting-imgs floss">
                         <div class="service-name">
                             <span>Candy Floss</span>
                         </div>

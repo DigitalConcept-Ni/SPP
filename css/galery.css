@@ -34,6 +34,7 @@
   object-position: center;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .content-img:hover {

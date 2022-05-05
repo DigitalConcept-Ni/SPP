@@ -27,3 +27,19 @@ window.addEventListener("scroll", function (e) {
     scrollAnterior = scroll;
 
 })
+
+
+// function for the contact
+
+
+const contact = () => {
+    let form = document.getElementById('contact-banner');
+    form.classList.remove('oculto');
+    form.classList.add('visible');
+}
+
+const btnXContact = () => {
+    let x = document.getElementById('contact-banner');
+    x.classList.remove('visible');
+    x.classList.add('oculto');
+}
