@@ -7,7 +7,7 @@
 .title-services {
   text-align: center;
   font-size: 3rem;
-  font-weight: 600; 
+  font-weight: 600;
   color: var(--azul);
 }
 
@@ -75,59 +75,42 @@
 }
 
 /* IMAGES FOR THE CARDS SERVICES */
-.weading {
-  background-image: url("../img/services/weeding.jpg");
+
+.setting-imgs {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.weading {
+  background-image: url("../img/services/weeding.jpeg");
 }
 
 .quince {
-  background-image: url("../img/services/quince.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/services/quince.jpeg");
 }
 
 .kids {
-  background-image: url("../img/services/kids.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/services/kids.jpeg");
 }
 /* themed decoration */
 
 .fabric {
-  background-image: url("../img/services/fabric.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/services/fabric.jpeg");
 }
 
 .balloon {
-  background-image: url("../img/services/balloon.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/services/balloon.jpeg");
 }
 
 .bouncers {
-  background-image: url("../img/services/bouncers.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/services/bouncers.jpeg");
 }
 
 .popcorn {
   background-image: url("../img/services/pop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .floss {
   background-image: url("../img/services/floss.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
