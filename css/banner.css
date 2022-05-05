@@ -94,7 +94,7 @@ header#banner {
 }
 
 #contact-banner.oculto {
-  right: -23.5rem;
+  right: -100%;
 }
 
 .contact-btn-x {
