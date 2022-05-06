@@ -9,11 +9,13 @@ window.addEventListener("scroll", function (e) {
     if (scroll != 0) {
         document.querySelector('#menu').classList.add('blanco');
         document.querySelector('.title-call').classList.add('black');
+        document.querySelector('.nav-social').classList.add('borde');
 
 
     } else {
         document.querySelector('#menu').classList.remove('blanco');
         document.querySelector('.title-call').classList.remove('black');
+        document.querySelector('.nav-social').classList.remove('borde');
     }
 
     if (scrollAnterior > scroll) {

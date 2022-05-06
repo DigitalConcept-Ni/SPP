@@ -44,9 +44,12 @@ h2 {
   }
 
   .title-banner {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
 
+  .p-banner {
+    font-size: 1rem;
+  }
   /* .baner-info > p {
     font-size: 1.5rem;
   } */

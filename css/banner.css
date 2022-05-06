@@ -9,8 +9,15 @@ header#banner {
 .title-banner {
   color: white;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 3vw;
   font-family: "Cinzel", serif;
+  text-align: justify;
+}
+
+.p-banner {
+  font-style: 2vw;
+  text-align: justify;
+
 }
 
 .img-banner {
@@ -26,18 +33,10 @@ header#banner {
 
 #content_info_banner {
   position: absolute;
-  bottom: 10%;
+  bottom: 12%;
   left: 7%;
   height: 15rem;
   width: 31rem;
-}
-
-.dinamyc-info {
-  height: 50%;
-}
-
-.baner-info {
-  height: 50%;
 }
 
 .baner-info > p {
