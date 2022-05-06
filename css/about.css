@@ -1,0 +1,17 @@
+#about {
+  height: auto;
+  /* width: 100vw; */
+  background: #b202052c;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.title-about {
+  color: var(--rojo);
+}
+
+.about-p {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 100%;
+}

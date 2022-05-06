@@ -1,21 +1,21 @@
 #galery {
   padding: 2.5rem;
   height: auto;
-  background: #b202052c;
+  background: #def7ff;
 }
 
 .title-galery {
   text-align: center;
   font-size: 3rem;
   font-weight: 600;
-  color: var(--rojo);
+  color: var(--azul);
 }
 
 .title-galery-sub {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--rojo);
+  color: var(--azul);
   font-family: 'Cinzel', serif;
 
 }
