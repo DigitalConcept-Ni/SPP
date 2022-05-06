@@ -4,6 +4,7 @@
 @import url(navbar.css);
 @import url(banner.css);
 @import url(services.css);
+@import url(about.css);
 @import url(galery.css);
 @import url(contact.css);
 @import url(payment.css);
@@ -14,6 +15,14 @@
   --rojo: #b20205;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
 .center {
   text-align: center;
 }
